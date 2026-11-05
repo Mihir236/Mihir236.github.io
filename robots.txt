@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mihir236.github.io/sitemap.xml
