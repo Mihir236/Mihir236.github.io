@@ -23,18 +23,17 @@ You can open this website immediately on your Mac without spending a penny:
 
 ## 🌐 Step 2: Put it on the Internet for Free ($0)
 
-### Option A: GitHub Pages (Recommended & 100% Free Forever)
-1. Go to [github.com](https://github.com) and create a free account (if you don't have one).
-2. Click **New Repository**.
-3. Name it: `your-username.github.io` (replace `your-username` with your exact GitHub username) or name it `portfolio`.
-4. Keep it **Public**. Click **Create repository**.
-5. In your terminal inside this folder (`Desktop/Own_Company`), run:
+### Option A: GitHub Pages (100% Free Forever under your domain)
+1. Go to [github.com/new](https://github.com/new).
+2. Name the repository: `Mihir236.github.io`
+3. Keep it **Public**. (Do NOT check initialize with README, license, or gitignore). Click **Create repository**.
+4. In your terminal inside this folder (`Desktop/Own_Company`), run:
    ```bash
-   git remote add origin https://github.com/<your-username>/<repo-name>.git
+   git remote add origin https://github.com/Mihir236/Mihir236.github.io.git
    git push -u origin main
    ```
-6. In GitHub, go to **Settings** -> **Pages** -> under *Branch*, select `main` and `/ (root)` -> Click **Save**.
-7. In 1 to 2 minutes, your website is live worldwide at: `https://<your-username>.github.io`!
+5. In your GitHub repository, go to **Settings** -> **Pages** -> under *Branch*, select `main` and `/ (root)` -> Click **Save**.
+6. In about 60 seconds, your portfolio is live worldwide at: `https://mihir236.github.io`!
 
 ---
 
