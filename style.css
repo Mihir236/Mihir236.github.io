@@ -453,6 +453,18 @@ body {
     line-height: 1.6;
 }
 
+.direct-email-link {
+    color: var(--teal);
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    transition: var(--transition);
+}
+
+.direct-email-link:hover {
+    color: var(--text-primary);
+}
+
 .contact-form {
     display: flex;
     flex-direction: column;

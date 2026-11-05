@@ -60,14 +60,14 @@ document.addEventListener('DOMContentLoaded', () => {
             if (formAction.includes('YOUR_FORM_ID')) {
                 const name = formData.get('name');
                 const message = formData.get('message');
-                const mailtoUrl = `mailto:your-email@example.com?subject=Project Inquiry from ${encodeURIComponent(name)}&body=${encodeURIComponent(message)}`;
+                const mailtoUrl = `mailto:modimihir847@gmail.com?subject=Project Inquiry from ${encodeURIComponent(name)}&body=${encodeURIComponent(message)}`;
                 
                 formStatus.style.color = '#5eead4';
-                formStatus.innerHTML = `Form backend not configured yet. Opening your email app...`;
+                formStatus.innerHTML = `Opening your email app to send directly to modimihir847@gmail.com...`;
                 
                 setTimeout(() => {
                     window.location.href = mailtoUrl;
-                }, 700);
+                }, 600);
                 return;
             }
 
